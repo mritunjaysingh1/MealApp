@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card.m-3 {
+  width: 18rem;
+}
+
+i.fa-regular.fa-heart {
+  float: right;
+  font-size: x-large;
+  padding: 5px;
+}
+
+img#mealImage {
+  max-height: 75vh;
+}
+
+[data-is-favorite="true"] {
+  color: red;
+}
